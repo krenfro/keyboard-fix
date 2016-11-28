@@ -1,0 +1,9 @@
+[Unit]
+Description=mac keyboard fix
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/keyboard-fix.sh
+
+[Install]
+WantedBy=multi-user.target
